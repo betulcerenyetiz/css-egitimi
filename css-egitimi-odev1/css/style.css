@@ -1,0 +1,96 @@
+body {
+    background: url('../img/y8.jpg') #ccc4c42a no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:whitesmoke;
+}
+header {
+    width:80% ;
+    background-color:#b19b928f;
+    border-radius: 25px;
+    margin: 0 auto ;
+}
+#logo {
+    display: inline ;
+    text-align: center ;
+    color:rgb(73, 62, 62);
+    font-family:'Courier New', Courier, monospace;
+    padding-top: 5px;
+}
+#navbar {
+    list-style-type: none;
+    list-style-position: inside;
+    text-align:center;
+    padding-bottom: 20px;
+}
+#navbar li {
+    display: inline;
+    padding-right: 10px;
+    padding: 2%;
+}
+#navbar li a{
+    text-decoration: none;
+    color:#888888;
+}
+#navbar li a:hover {
+    color:cadetblue;
+
+}
+#container{
+    width:80% ;
+    height: 700px;
+    background-color:#b19b928f;
+    border-radius: 25px;
+    margin: 0 auto ;
+    margin-bottom: 10px;
+}
+#card{
+    width: 25%;
+    background-color: #88888879;
+    margin:3% 1%;
+    float: left;
+    border-radius: 25px;
+    padding: 0 3%;
+    color:white;
+}
+.home-pictures{
+    width: 100%;
+    border-radius: 25px;
+    padding-bottom: 10px;
+}
+h2 {
+    text-align: center;
+}
+p{
+    padding: 0 3%;
+}
+footer {
+    width:78% ;
+    background-color:#b19b928f;
+    border-radius: 25px;
+    margin: 0 auto ;
+    padding: 1% 1%;
+}
+.footer-link{
+    text-decoration: none;
+    float: right;
+    padding-right: 20px;
+    color: whitesmoke;
+}
+.footer-link:hover{
+    color: cadetblue;
+}
+#footer-h3 {
+    display: inline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:cadetblue;
+    padding-left:10px;
+}
+/********About-Us Custom Style*********/
+
+#about-img {
+    width: 350px;
+    border-radius: 25px;
+    padding: 0 5%;
+    float: left;
+}
